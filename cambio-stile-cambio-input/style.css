@@ -1,0 +1,9 @@
+#testoDaModificare {
+    font-size: 50px;
+    color: blue;
+}
+
+#testoDaModificare.stile-cambiato {
+    font-size: 100px;
+    color: red;
+}
