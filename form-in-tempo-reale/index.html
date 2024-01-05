@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form con Validazione in Tempo Reale</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="myForm">
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <span id="nameError" class="error"></span>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <span id="emailError" class="error"></span>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required minlength="8">
+      <span id="passwordError" class="error"></span>
+    </div>
+    <input type="submit" value="Invia">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
