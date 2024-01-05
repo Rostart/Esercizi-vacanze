@@ -1,0 +1,12 @@
+#backgroundDiv {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    
+  }
