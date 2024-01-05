@@ -1,16 +1,16 @@
-const form = document.getElementById('myForm');
-const campoNome = document.getElementById('name');
-const campoEmail = document.getElementById('email');
-const campoPassword = document.getElementById('password');
+let form = document.getElementById('myForm');
+let campoNome = document.getElementById('name');
+let campoEmail = document.getElementById('email');
+let campoPassword = document.getElementById('password');
 
 function mostraErrore(campo, messaggio) {
-  const errore = campo.nextElementSibling;
+  let errore = campo.nextElementSibling;
   errore.textContent = messaggio;
   errore.style.display = 'block';
 }
 
 function nascondiErrore(campo) {
-  const errore = campo.nextElementSibling;
+  let errore = campo.nextElementSibling;
   errore.textContent = '';
   errore.style.display = 'none';
 }
